@@ -102,15 +102,19 @@
                       name="input-7-4"
                       label="MESSAGE*"
                       required
+                      height="227"
                       @input="$v.message.$touch()"
                       @blur="$v.message.$touch()" 
                       ></v-textarea>
                     </v-col>
                   </v-row>
                 </v-col>
+
               </v-container>
-              <v-btn class="mr-4" @click="submit">submit</v-btn>
-              <v-btn @click="clear">clear</v-btn>
+              <v-col md="6" offset-md="9">
+                <v-btn class="mr-4" right @click="submit">submit</v-btn>
+                <v-btn @click="clear" right >clear</v-btn>
+              </v-col>
             </v-form><br><br>
             <v-col>
               <v-row>   
