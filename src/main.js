@@ -1,4 +1,5 @@
 import Vue from 'vue'
+<<<<<<< HEAD
 import '@/plugins/axios'
 import '@/plugins/vuetify'
 import '@/plugins/veevalidate'
@@ -28,3 +29,16 @@ if (window.Cypress) {
   // Only available during E2E tests
   window.app = app
 }
+=======
+import App from './App.vue'
+import vuetify from './plugins/vuetify';
+import router from './router'
+
+Vue.config.productionTip = false
+
+new Vue({
+  vuetify,
+  router,
+  render: h => h(App)
+}).$mount('#app')
+>>>>>>> 5b9e5c9ea9fb65783ef3c483c30ff5e5dca8366b

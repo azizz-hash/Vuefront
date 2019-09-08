@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VueJS Vuetify Vue Router Vuex - Basic Project Skeleton
 
 [![Author](http://img.shields.io/badge/author-@davellanedam-blue.svg?style=flat-square)](https://twitter.com/davellanedam)
@@ -149,3 +150,6 @@ Feel free to report any bugs or improvements. Pull requests are always welcome.
 ## License
 
 This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.
+=======
+# Vuefront
+>>>>>>> 5b9e5c9ea9fb65783ef3c483c30ff5e5dca8366b
