@@ -13,7 +13,7 @@ const actions = {
         console.log(res)
       })
       // api
-        // .getAllattributes()
+        // .getAllattributes()a
         // .then(response => {
         //   console.log(response)
         //   if (response.status === 200) {
